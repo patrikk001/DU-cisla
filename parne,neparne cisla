@@ -1,0 +1,103 @@
+ def je_prvocislo(n):
+...     if n <= 1:
+...         return False
+...     for i in range(2, int(n ** 0.5) + 1):
+...         if n % i == 0:
+...             return False
+...     return True
+...
+... # Prejdeme všetky čísla od 1 do 100
+... for i in range(1, 101):
+...     if i % 2 == 0:  # Skontrolujeme, či je číslo párne
+...         print(f"* {i} je párne číslo.")
+...     if i % 10 == 0:  # Skontrolujeme, či je číslo deliteľné 10
+...         print(f"# {i} je desiate číslo.")
+...     if je_prvocislo(i):  # Skontrolujeme, či je číslo prvočíslo
+...         print(f"^ {i} je prvočíslo.")
+...
+* 2 je párne číslo.
+^ 2 je prvočíslo.
+^ 3 je prvočíslo.
+* 4 je párne číslo.
+^ 5 je prvočíslo.
+* 6 je párne číslo.
+^ 7 je prvočíslo.
+* 8 je párne číslo.
+* 10 je párne číslo.
+# 10 je desiate číslo.
+^ 11 je prvočíslo.
+* 12 je párne číslo.
+^ 13 je prvočíslo.
+* 14 je párne číslo.
+* 16 je párne číslo.
+^ 17 je prvočíslo.
+* 18 je párne číslo.
+^ 19 je prvočíslo.
+* 20 je párne číslo.
+# 20 je desiate číslo.
+* 22 je párne číslo.
+^ 23 je prvočíslo.
+* 24 je párne číslo.
+* 26 je párne číslo.
+* 28 je párne číslo.
+^ 29 je prvočíslo.
+* 30 je párne číslo.
+# 30 je desiate číslo.
+^ 31 je prvočíslo.
+* 32 je párne číslo.
+* 34 je párne číslo.
+* 36 je párne číslo.
+^ 37 je prvočíslo.
+* 38 je párne číslo.
+* 40 je párne číslo.
+# 40 je desiate číslo.
+^ 41 je prvočíslo.
+* 42 je párne číslo.
+^ 43 je prvočíslo.
+* 44 je párne číslo.
+* 46 je párne číslo.
+^ 47 je prvočíslo.
+* 48 je párne číslo.
+* 50 je párne číslo.
+# 50 je desiate číslo.
+* 52 je párne číslo.
+^ 53 je prvočíslo.
+* 54 je párne číslo.
+* 56 je párne číslo.
+* 58 je párne číslo.
+^ 59 je prvočíslo.
+* 60 je párne číslo.
+# 60 je desiate číslo.
+^ 61 je prvočíslo.
+* 62 je párne číslo.
+* 64 je párne číslo.
+* 66 je párne číslo.
+^ 67 je prvočíslo.
+* 68 je párne číslo.
+* 70 je párne číslo.
+# 70 je desiate číslo.
+^ 71 je prvočíslo.
+* 72 je párne číslo.
+^ 73 je prvočíslo.
+* 74 je párne číslo.
+* 76 je párne číslo.
+* 78 je párne číslo.
+^ 79 je prvočíslo.
+* 80 je párne číslo.
+# 80 je desiate číslo.
+* 82 je párne číslo.
+^ 83 je prvočíslo.
+* 84 je párne číslo.
+* 86 je párne číslo.
+* 88 je párne číslo.
+^ 89 je prvočíslo.
+* 90 je párne číslo.
+# 90 je desiate číslo.
+* 92 je párne číslo.
+* 94 je párne číslo.
+* 96 je párne číslo.
+^ 97 je prvočíslo.
+* 98 je párne číslo.
+* 100 je párne číslo.
+# 100 je desiate číslo.
+>>>
