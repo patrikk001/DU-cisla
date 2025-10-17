@@ -1,0 +1,72 @@
+Jasné, pripravím ti vysvetlenie o externých zberniciach, ktoré pokryje približne 6 minút rozprávania. Budem postupovať krok po kroku, s príkladmi a jednoduchými analogiami, aby to bolo zrozumiteľné a zároveň informatívne.
+
+---
+
+## Externé zbernice – vysvetlenie na 6 minút
+
+### 1. Úvod (1 minúta)
+
+Začnem tým, čo je zbernica všeobecne a potom prečo potrebujeme **externé** zbernice.
+
+* **Čo je zbernica?**
+  Zbernica je súbor vodičov (dráh), po ktorých putujú informácie medzi rôznymi časťami počítača. Predstav si to ako diaľnicu pre dáta, ktorou sa posielajú informácie medzi procesorom, pamäťou a inými zariadeniami.
+
+* **Prečo potrebujeme externé zbernice?**
+  Procesor (CPU) je „mozog“ počítača, ale sám o sebe nevie uchovávať veľa dát a ani ovládať všetky zariadenia (pevné disky, klávesnicu, tlačiareň...). Na komunikáciu s nimi používa externé zbernice.
+
+---
+
+### 2. Zložky externých zberníc (2 minúty)
+
+Externé zbernice sa skladajú z troch hlavných častí, ktoré spolu spolupracujú:
+
+* **Adresová zbernica**
+  Je to cesta, po ktorej CPU vysiela adresy — teda miesta v pamäti alebo v zariadeniach, kam chce poslať alebo získať dáta. Predstav si, že to je adresa príjemcu v poštovej zásielke.
+
+* **Dátová zbernica**
+  Táto časť prenáša samotné dáta. Dáta môžu ísť oboma smermi — CPU ich môže posielať do pamäte alebo čítať z nej.
+
+* **Riadiaca zbernica**
+  Slúži na riadenie celého procesu. Prenáša signály, ktoré určujú, či sa má čítať alebo zapisovať, kedy je zariadenie pripravené, prípadne kedy sa má začať prenos. Dá sa to prirovnať k riadiacemu dispečerovi, ktorý dáva pokyny.
+
+---
+
+### 3. Ako to funguje v praxi (1,5 minúty)
+
+Vysvetlíme si to na jednoduchom príklade — načítanie súboru z pevného disku.
+
+* Keď chce CPU načítať dáta zo súboru, najprv pošle cez **adresovú zbernicu** adresu miesta na disku (alebo pamäti), odkiaľ chce dáta.
+* Pomocou **riadiacej zbernice** dá signál „čítaj“.
+* Dáta sa potom cez **dátovú zbernicu** vrátia späť do CPU.
+* Tento proces sa opakuje pri každom prístupe k pamäti alebo zariadeniu.
+
+---
+
+### 4. Príklady externých zberníc (1,5 minúty)
+
+Môžeš spomenúť niekoľko známych typov:
+
+* **PCI a PCI Express (PCIe)** – používa sa na pripojenie rozšírení ako grafické karty alebo zvukové karty.
+* **USB** – slúži na pripojenie myši, klávesnice, USB kľúčov.
+* **SATA** – pre pevné disky a SSD.
+* **Thunderbolt** – rýchla zbernica pre externé disky a monitory.
+
+Každá z týchto zberníc má inú rýchlosť a špecifikáciu, ale všetky sú príkladom externých zberníc, ktoré umožňujú komunikáciu medzi CPU a vonkajšími zariadeniami.
+
+---
+
+### 5. Záver a význam externých zberníc (0,5 minúty)
+
+* Externé zbernice sú nevyhnutné, pretože umožňujú rozšíriť funkcie počítača.
+* Bez nich by CPU nevedel efektívne komunikovať s pamäťou a perifériami.
+* Vývoj externých zberníc postupne priniesol vyššie rýchlosti a väčšiu flexibilitu.
+
+---
+
+### Bonus: jednoduchá analógia na záver
+
+Predstav si, že CPU je centrálna pošta v meste, ktorá posiela a prijíma zásielky. Externé zbernice sú cesty, po ktorých idú poštové autá doručovať balíky do rôznych budov (pamäť, pevné disky, tlačiarne). Adresová zbernica je adresa na obálke, dátová zbernica je obsah zásielky a riadiaca zbernica je dispečer, ktorý koordinuje, kedy a ako sa pošta doručuje.
+
+---
+
+Ak chceš, môžem ti tiež pomôcť pripraviť nejaké jednoduché grafické znázornenie, aby si to mal ešte ľahšie zapamätateľné. Čo povieš?
